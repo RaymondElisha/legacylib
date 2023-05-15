@@ -1,3 +1,3 @@
 # legacylib
 
-Library website written in Django
+Library website written in Django.
