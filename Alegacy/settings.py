@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ["https://legacylib-n6iakkxgvq-uc.a.run.app","127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
