@@ -93,16 +93,16 @@ DATABASES = {
         conn_max_age=600
     )
 }
-DATABASES = {
-   'default': {
-      'ENGINE': 'django.db.backends.postgresql_psycopg2',
-     'NAME': 'postgres',
-        'USER': 'postgres',
-       'PASSWORD': '1234',
-      'HOST': '104.154.153.2',
-     'PORT': '5432',
-     }
-}
+#DATABASES = {
+ #  'default': {
+  #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+   #  'NAME': 'postgres',
+    #    'USER': 'postgres',
+     #  'PASSWORD': '1234',
+      #'HOST': '104.154.153.2',
+     #'PORT': '5432',
+     #}
+#}
 
 
 # Password validation
