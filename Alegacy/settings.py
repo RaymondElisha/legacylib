@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ['legacylib-jsvr.onrender.com']
+ALLOWED_HOSTS = ['legacylib-jsvr.onrender.com','legacylib.onrender.com']
 
 
 # Application definition
